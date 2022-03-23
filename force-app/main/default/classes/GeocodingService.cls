@@ -10,7 +10,7 @@ public with sharing class GeocodingService {
         for (GeocodingAddress address : addresses) {
             String geocodingUrl = BASE_URL;
             geocodingUrl += (String.isNotBlank(address.street))
-                ? '&street=' + address.street
+                ? '&str=' + address.street
                 : '';
             geocodingUrl += (String.isNotBlank(address.city))
                 ? '&city=' + address.city
