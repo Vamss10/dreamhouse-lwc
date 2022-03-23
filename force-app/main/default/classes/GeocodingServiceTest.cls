@@ -6,7 +6,7 @@ private with sharing class GeocodingServiceTest {
     private static final String STATE = 'Granada';
     private static final String COUNTRY = 'Spain';
     private static final Decimal LATITUDE = 3.123;
-    private static final Decimal LONGITUDE = 31.333;
+    private static final Decimal LONGITUDE = 31.3;
 
     @isTest
     static void successResponse() {
